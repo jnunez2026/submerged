@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kanit:wght@300&display=swap');
+
+body {
+    margin: 0 auto;
+    background-color: #4194B0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav a:hover {
+    color: #4194B0;
+}
+
+a:hover img {
+    opacity: 80%;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    margin: 45px 1%;
+    border: 2px solid #040D59;
+}
+
+.header {
+    text-align: left;
+    background-color: #1E4F9E;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    color:white;
+}
+
+.header button {
+    margin: 20px;
+    margin-left: 0;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 26pt;
+    font-family: Fredoka One, cursive;
+    color: white;
+}
+
+button:hover:before {
+    opacity: 1; transform: translateY(0);
+}
+
+button:before {
+    content: "SUBPAR. SUBJECTIVE. SUBMERGED.";
+    position: absolute;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 0.75s ease-in-out;
+}
+
+button:hover span {
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+
+button span {
+    transform: translateY(0);
+    transition: all 1s ease-in;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #040D59;
+    margin: 0;
+}
+
+.nav * {
+    display: inline;
+    padding: 0 15px;
+}
+
+.nav ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav li {
+    margin: 0;
+    color: white;
+    font-size: 10pt;
+    font-family: Kanit, sans-serif;
+    font-weight: bold;
+}
+
+.main {
+    margin: 15px 10px;
+    font-family: Kanit, sans-serif;
+    color: #040D59;
+}
+
+.main h2 {
+    font-size: 23pt;
+}
+
+.main p {
+    font-size: 14pt;
+}
+
+#about {
+    font-family: Kanit, sans-serif;
+    color: #040D59;
+    padding-bottom: 50px;
+}
+
+#about-intro {
+    text-align: center;
+}
+
+#about-about {
+    text-align: justify;
+    text-indent: 3em;
+    margin: 0 2%;
+    border-radius: 25px;
+    background-image: url("about-design.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px 20px;
+}
+
+#about-pic {
+    border-radius: 25px;
+    background-color: #040D59;
+    padding: 20px 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    text-align: center;
+    background-color: #040D59;
+    color: white;
+}
+
+.footer p {
+    padding-top: 15px;
+    font-size: 10pt;
+    font-family: Kanit, sans-serif;
+}
+    
+.footer img {
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
